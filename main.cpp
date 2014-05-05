@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
 
     QtQuick2ApplicationViewer viewer;
-    viewer.setMainQmlFile(QStringLiteral("qml/EpocTeris/main.qml"));
+    viewer.setMainQmlFile(QStringLiteral("qml/MyEpocTeris/main.qml"));
     viewer.showExpanded();
 
     return app.exec();
