@@ -15,3 +15,17 @@ SOURCES += main.cpp
 # Please do not modify the following two lines. Required for deployment.
 include(qtquick2applicationviewer/qtquick2applicationviewer.pri)
 qtcAddDeployment()
+
+OTHER_FILES += \
+    EmotivClassify/1_arma_v2.mat
+
+HEADERS += \
+    EmotivClassify/classify.h \
+    EmotivClassify/corr2.h \
+    EmotivClassify/FDA_TEST.h \
+    EmotivClassify/FDA_TRAIN.h \
+    EmotivClassify/filter.h \
+    EmotivClassify/gotBlockFlags.h \
+    EmotivClassify/gotPlv.h \
+    EmotivClassify/my_csp.h \
+    EmotivClassify/my_unwrap.h
